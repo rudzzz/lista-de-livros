@@ -1,5 +1,10 @@
 # lista-de-livros
-Projeto para treinar o conceito de Orientação a Objetos com JavaScript. Consiste em uma lista de livros para ser criada.
+
+## 🇧🇷
+Neste projeto para utilizei a ideia de classes baseado no conceito de Orientação a Objetos, usando o JavaScript. Consiste em uma lista de livros para ser criada e salva no LocalStorage.
+
+## 🇺🇸
+In this project I used the idea of classes based on the concept of Object Oriented Programming in JavaScript. It is a book list where the data is stored in the LocalStorage.
 
 ##
 
