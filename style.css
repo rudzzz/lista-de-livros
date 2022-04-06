@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgba(72, 175, 159, 0.902);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+.main-color{
+    color: rgba(44, 107, 44, 0.902);
+}
+
+.btn-add-book{
+    text-align: center;
+    border: none;
+    background-color: rgba(44, 107, 44, 0.902);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 17%;
+}
+
+.btn-add-book:hover{
+    cursor: pointer;
+    background-color: rgb(30, 81, 30);
+}
+
+.tabela{
+    margin-top: 30px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.tabela thead tr{
+    background-color: rgba(44, 107, 44, 0.902);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tabela th,
+.tabela td{
+    padding: 12px 15px;
+}
+
+.tabela tbody tr{
+    border-bottom: 1px solid rgba(91, 91, 91, 0.928)
+}
+
+.tabela tbody tr:nth-of-type(even){
+    background-color: #838383;
+}
+
+.tabela tbody tr:last-of-type{
+    border-bottom: 2px solid rgba(44, 107, 44, 0.902);
+}
+
+.delete-book{
+    color: red;
+    text-decoration: none;
+}
+
+.danger{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.success{
+    background-color: rgb(72, 120, 72);
+    color: white;
+    text-transform: uppercase;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
